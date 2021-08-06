@@ -6,5 +6,6 @@ public class Main {
         TransactionUtil.executeTransaction(goldWallet,platinumWallet,20);
         System.out.println(goldWallet.getAmount());
         System.out.println(platinumWallet.getAmount());
+        System.out.println(platinumWallet.getAmount());
     }
 }
