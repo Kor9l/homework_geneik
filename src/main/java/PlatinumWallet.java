@@ -1,5 +1,5 @@
-public class PlatinumWallet<T extends Number> extends BaseWallet{
-    PlatinumWallet(T amount) {
+public class PlatinumWallet  extends BaseWallet<Double>{
+    PlatinumWallet(double amount) {
         super(amount);
     }
 }
